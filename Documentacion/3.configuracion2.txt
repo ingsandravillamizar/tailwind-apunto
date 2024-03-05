@@ -1,0 +1,3 @@
+npx tailwindcss init -p
+
+npx tailwindcss init tailwind.config.full.js --full

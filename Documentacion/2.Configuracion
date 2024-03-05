@@ -1,0 +1,20 @@
+Crear carpeta public y subcarpetas css  img y js
+dentro de css crear archivo tailwind.css
+    y agregamos las directivas  que insertan codigo 
+    @tailwind base;                 //Inicializa los elementos de html para que no tengan estilos
+    @tailwind components;           
+    @tailwind utilities;            
+
+    @tailwind base;: Esta directiva incluye la capa de estilos base de Tailwind CSS. Contiene estilos que resetean y normalizan los estilos de los elementos HTML, proporcionando una base consistente para empezar a trabajar. Esto incluye estilos para elementos como body, h1, p, etc.
+
+    @tailwind components;: Esta directiva incluye la capa de componentes de Tailwind CSS. Contiene estilos para componentes reutilizables de interfaz de usuario, como botones, tarjetas, formularios, etc. Estos estilos están diseñados para ser fácilmente personalizables y combinables para crear diferentes componentes de UI.
+
+    @tailwind utilities;: Esta directiva incluye la capa de utilidades de Tailwind CSS. Contiene una gran cantidad de clases utilitarias que se pueden aplicar directamente a elementos HTML para aplicar estilos de forma rápida y fácil. Estas clases abarcan una amplia gama de propiedades CSS, como márgenes, padding, colores, tipografía, display, etc.
+
+    Al incluir estas directivas en tu archivo de estilos CSS (normalmente usando PostCSS o Sass para procesar el CSS), estás importando las diferentes capas de estilos de Tailwind CSS en tu proyecto, lo que te permite utilizar las clases y estilos proporcionados por Tailwind en tu aplicación. Esto te permite aprovechar la potencia y la flexibilidad de Tailwind CSS para diseñar y estilizar tu interfaz de usuario de manera eficiente.
+
+
+
+
+
+
